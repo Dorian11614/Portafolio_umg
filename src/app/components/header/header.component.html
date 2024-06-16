@@ -1,0 +1,24 @@
+<header class="position-sticky sticky-top">
+  <nav class="navbar nav-menu navbar-expand-sm navbar-dark d-flex justify-content-end justify-content-sm-center">
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="d-none d-sm-block justify-content-center" tabindex="-1" id="navbarNav">
+      <ul class="navbar-nav pe-3">
+        <li class="nav-item ms-2">
+          <a class="nav-link" id="home-btn" href="/" (click)="onClickNotCollapseNavLink($event)">Home</a>
+        </li>
+        <li class="nav-item ms-2">
+          <a class="nav-link" id="projects-btn" href="/#portfolio"
+            (click)="onClickNotCollapseNavLink($event)">Proyectos</a>
+        </li>
+        <li class="nav-item ms-2">
+          <a class="nav-link" id="about-me-btn" href="/about-me" (click)="onClickNotCollapseNavLink($event)">Sobre
+            mí</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
